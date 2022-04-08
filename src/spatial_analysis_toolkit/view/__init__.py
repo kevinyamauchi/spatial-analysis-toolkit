@@ -1,0 +1,1 @@
+from .tissuumaps import tissuumaps_notebook_viewer
