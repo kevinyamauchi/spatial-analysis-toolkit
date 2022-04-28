@@ -97,6 +97,7 @@ def tissuumaps_notebook_viewer(
     image_container: ImageContainer,
     spatial_scale_factor: float = 0.5,
     point_scale_factor: float = 10,
+    host: str = "localhost",
     port: float = 5101,
     image_path: str = "img.tif",
     csv_path: str = "markers_table.csv",
