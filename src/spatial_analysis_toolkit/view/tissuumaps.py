@@ -121,6 +121,7 @@ def tissuumaps_notebook_viewer(
         xSelector="x",
         ySelector="y",
         scaleFactor=point_scale_factor,
+        host=host,
         port=port,
         plugins=["Feature_Space"],
     )
